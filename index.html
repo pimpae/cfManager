@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+   <script src="js/bootstrap.min.js"></script>  
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/main.css" rel="stylesheet" type="text/css" />
+   <link href="fonts/web-fonts-with-css/css/all.css" rel="stylesheet">
+  <!--  <link rel="shortcut icon" href="images/icon.ico" /> -->
+   <link rel="icon" type="image/x-icon" href="images/logo.png">
+   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+   <title> Cf Manager </title>
+
+   <script src="js/lightslider.js"></script>
+   <link href="css/lightslider.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body onload="splash(1000)">
+   <div id="splashscreen" class="splashscreen">
+      <div class="centerx-img">
+         <img src="images/logo.png" class="splash-logo">
+      </div>
+   </div>
+   <div class="col login">
+      <div class="log-img">
+         <img src="images/logo.png" class="splash-logo">
+      </div>
+      <div class="container">
+         <div class="form-logx">
+            <div class="row">
+               <div class="col-6"><h3>เข้าสู่ระบบ</h3></div>
+               <div class="col-6"><h6>สมัครสมาชิก</h6></div>
+            </div>            
+         </div>
+         <div class="col none-pad">
+            <form class="form-login">
+               <input type="text" name="username" id="username" placeholder="Username">
+               <div class="img-set">
+                  <img src="images/icon-u.png">
+               </div>
+               <input type="password" name="password" id="password" placeholder="Password">
+               <div class="img-set" onclick="showPass()">
+                  <img src="images/icon-e.png">
+               </div>
+               <div class="clearfix">&nbsp;</div>
+               <div class="clearfix">&nbsp;</div>
+               <div class="row justify-content-center">
+                  <div class="col-8 hrx">
+                     <p><a href="home.html">หรือ เข้าสู่ระบบ<br>ผ่านทาง</a></p>
+                  </div> 
+               </div>               
+            </form>
+         </div>
+         <div class="clearfix">&nbsp;</div>
+         <div class="col ic-social">
+            <div class="row">
+               <div class="col-4">
+                  <div class="ic1">
+                     <a href="#">
+                        <img src="images/line.png" class="lof1">                        
+                     </a>
+                  </div>
+                  <a href="#"><span>Line</span></a>
+               </div>
+               <div class="col-4">
+                  <div class="ic2">
+                     <a href="#">
+                        <img src="images/FB.png" class="lof2">                        
+                     </a>
+                  </div>
+                  <a href="#"><span>Facebook</span></a>
+               </div>
+               <div class="col-4">
+                  <div class="ic3">
+                     <a href="#">
+                        <img src="images/Fingerprint.png" class="lof3"> 
+                     </a>
+                  </div>
+                  <a href="#"><span>Touch ID</span></a>
+               </div>
+            </div>
+         </div>
+         <a href="#" class="go-Button">
+            <img src="images/Go-Button.png">
+         </a>
+      </div>
+   </div>
+</body>
+
+
+<script type="text/javascript">
+   function splash(param) {
+      var time = param;
+      setTimeout(function () {
+         $('#splashscreen').hide();
+      }, time);
+   }
+   function showPass() {
+      var x = document.getElementById("password");
+      if (x.type === "password") {
+         x.type = "text";
+      } else {
+         x.type = "password";
+      }
+   }
+   
+</script>
+
+</html>
