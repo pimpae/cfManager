@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+   <script src="js/bootstrap.min.js"></script>  
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/main.css" rel="stylesheet" type="text/css" />
+   <link href="fonts/web-fonts-with-css/css/all.css" rel="stylesheet">
+  <!--  <link rel="shortcut icon" href="images/icon.ico" /> -->
+   <link rel="icon" type="image/x-icon" href="images/logo.png">
+   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+   <title> Cf Manager </title>
+
+   <script src="js/lightslider.js"></script>
+   <link href="css/lightslider.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+
+<body>
+   <div class="main">
+      <div class="menu">
+         <div class="bar-menu">
+            <i class="fas fa-bars"></i>
+         </div>
+         <h1 class="dbx2">รายการที่ลูกค้า CF ได้</h1>
+         <a href="#" class="right-alert">
+            <img src="images/right_icon.png">
+         </a>
+      </div>
+
+      <div id="menuslide">
+         <div class="div-menu">
+            <div class="hmenu">
+               <div class="col">
+                  <div class="clearfix">&nbsp;</div>
+                  <div class="row">
+
+                     <div class="col-4 none-pad"><img src="images/Userpic.png" class="img-fluid d-block mx-auto userpic"></div>
+                     <div class="col-8 user none-pad">
+                        <h3>Kimberly  Shop</h3>
+                        <img src="images/shop.png" class="shop"><h3 style="display: inline;">ออนไลน์</h3>
+                        <label class="switch">
+                           <input type="checkbox">
+                           <span class="slider"></span>
+                        </label>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="bmenu">
+       
+               <div id="accordion" class="accordion">
+                  <div class="card mb-0">
+                     <div class="card-header collapsed" data-toggle="collapse" href="#menu1">
+                        <img src="images/box.png">
+                        <a class="card-title">
+                           <h3>ผลิตภัณฑ์สินค้า</h3>
+                        </a>
+                     </div>
+                     <div id="menu1" class="card-body collapse" data-parent="#accordion">
+                        <ul class="m">
+                           <li>
+                              <a href="#">เพิ่มสินค้า</a>
+                           </li>
+                           <li>
+                              <a href="#">จัดการสินค้า</a>
+                           </li>
+                           <li>
+                              <a href="#">หมวดหมู่สินค้า</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#menu2">
+                        <a class="card-title">
+                           <img src="images/list.png"> <h3>คำสั่งซื้อ </h3>
+                        </a>
+                     </div>
+                     <div id="menu2" class="card-body collapse" data-parent="#accordion">
+                        <ul class="m">
+                           <li>
+                              <a href="#">จัดการใบสั่งซื้อ</a>
+                           </li>
+                           <li>
+                              <a href="#">สร้างใบสั่งซื้อ</a>
+                           </li>
+                           <li>
+                              <a href="#">พิมพ์ใบจัดส่ง</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#menu3">
+                        <a class="card-title">
+                           <img src="images/Shape.png"> <h3>จัดการหน้า Facebook</h3>
+                        </a>
+                     </div>
+                     <div id="menu3" class="card-body collapse" data-parent="#accordion">
+                        <ul class="m">
+                           <li>
+                              <a>
+                                 FB Post                                 
+                              </a>
+                              <div>
+                                 <ul class="mx">
+                                    <li>
+                                       <a href="#">สร้างรายการ Post Sale</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">รายการ FB Post</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li>
+                              <a>FB <span>Live</span> </a>
+                              <div>
+                                 <ul class="mx">
+                                    <li>
+                                       <a href="#">สร้างรายการ Post Sale</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">รายการ FB Post</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#menu4">
+                        <a class="card-title">
+                           <img src="images/Group_3_.png"> <h3>กลุ่มลูกค้า</h3>
+                        </a>
+                     </div>
+                     <div id="menu4" class="card-body collapse" data-parent="#accordion">
+                        <ul class="m">
+                           <li>
+                              <a href="#">ลูกค้า</a>
+                           </li>
+                           <li>
+                              <a href="#">กลุ่มลูกค้า</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <a href="setting.html" class="icon-sett"><img src="images/settings.png"> <span>ตั้งค่า</span></a>
+            </div>
+         </div>
+      </div>
+      
+    
+
+      <div class="main" >
+         <div class="main-nav" style="background-color: #EDEDED;"> 
+            <div class="col none-pad">       
+               <ul class="nav nav-tabs cf-list" id="myTab" role="tablist">
+                  <li class="nav-item active">
+                     <a class="nav-link active" id="tabs-1" data-toggle="tab" href="#tabs1" role="tab" aria-controls="tabs1" aria-selected="false">ทั้งหมด</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="tabs-2" data-toggle="tab" href="#tabs2" role="tab" aria-controls="tabs2" aria-selected="false">เสื้อ</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="tabs-3" data-toggle="tab" href="#tabs3" role="tab" aria-controls="tabs3" aria-selected="false">กางเกง</a>
+                  </li> 
+                  <li class="nav-item">
+                     <a class="nav-link" id="tabs-4" data-toggle="tab" href="#tabs4" role="tab" aria-controls="tabs4" aria-selected="false">ชุดเซ็ท</a>
+                  </li>
+
+               </ul>
+               <div class="tab-content tab-cate" id="myTab">
+                  <div class="tab-pane fade active show" id="tabs1" role="tabpanel" aria-labelledby="tabs-1">
+                     <div class="col over-fs">
+                        <div class="row mainz">
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade " id="tabs2" role="tabpanel" aria-labelledby="tabs-2">
+                     <div class="col over-fs">
+                        <div class="row mainz">
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div> 
+                  <div class="tab-pane fade " id="tabs3" role="tabpanel" aria-labelledby="tabs-3">
+                     <div class="col over-fs">
+                        <div class="row mainz">
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div> 
+                  <div class="tab-pane fade " id="tabs4" role="tabpanel" aria-labelledby="tabs-4">
+                     <div class="col over-fs">
+                        <div class="row mainz">
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="cate-box">
+                                 <img src="images/Bitmap.png" class="pimg">
+                                 <a href="#" class="li-z"><img src="images/list-list.png"></a>
+                                 <a href="#" class="st-z"><img src="images/settingsx.png"></a>
+                                 <div class="input-group">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                                 </div>
+                                 <p class="name">เสื้อ</p>
+                                 <p class="number">รหัส A11</p>
+                                 <p class="price">฿200</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div> 
+               </div>           
+            </div>        
+  
+      
+         </div>
+         <a href="#" class="go-Button3">
+            <img src="images/Go-Button.png">
+         </a>
+      </div>         
+   </div>
+   
+</body>
+<script type="text/javascript">
+ 
+
+   $(".bar-menu").click(function () {
+      $( "#menuslide" ).show();
+   });
+
+   $(".main-nav").click(function () {
+      $( "#menuslide" ).hide();
+   }); 
+
+
+</script>
+<script type="text/javascript">
+   function incrementValue(e) {
+     e.preventDefault();
+     var fieldName = $(e.target).data('field');
+     var parent = $(e.target).closest('div');
+     var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+
+     if (!isNaN(currentVal)) {
+       parent.find('input[name=' + fieldName + ']').val(currentVal + 1);
+     } else {
+       parent.find('input[name=' + fieldName + ']').val(0);
+     }
+   }
+
+   function decrementValue(e) {
+     e.preventDefault();
+     var fieldName = $(e.target).data('field');
+     var parent = $(e.target).closest('div');
+     var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+
+     if (!isNaN(currentVal) && currentVal > 0) {
+       parent.find('input[name=' + fieldName + ']').val(currentVal - 1);
+     } else {
+       parent.find('input[name=' + fieldName + ']').val(0);
+     }
+   }
+
+   $('.input-group').on('click', '.button-plus', function(e) {
+     incrementValue(e);
+   });
+
+   $('.input-group').on('click', '.button-minus', function(e) {
+     decrementValue(e);
+   });
+
+</script>
+ 
+
+</html>
