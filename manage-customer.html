@@ -28,7 +28,7 @@
             <i class="fas fa-bars"></i>
          </div>
          <h1 class="dbx2">หมวดหมู่สินค้า</h1>
-         <a href="#" class="right-alert">
+         <a href="#" class="right-alert" data-toggle="modal" data-target="#addCustomer">
             <i class="fas fa-plus-circle"></i>
          </a>
       </div>
@@ -200,7 +200,7 @@
                               </a>
                            </td>
                            <td>
-                              <a href="#" class="st-z"><img src="images/settingsx.png" data-toggle="modal" data-target="#editCategory"></a>
+                              <a href="#" class="st-z"><img src="images/settingsx.png" data-toggle="modal" data-target="#editCustomer"></a>
                            </td>
                         </tr> 
                         <tr> 
@@ -214,7 +214,7 @@
                               </a>
                            </td>
                            <td>
-                              <a href="#" class="st-z"><img src="images/settingsx.png" data-toggle="modal" data-target="#editCategory"></a>
+                              <a href="#" class="st-z"><img src="images/settingsx.png" data-toggle="modal" data-target="#editCustomer"></a>
                            </td>
                         </tr>  
                      </tbody>
@@ -235,55 +235,238 @@
    </div>
    
 
-   <div class="modal modal-s fade" id="addCategory">
+   <div class="modal modal-s fade" id="addCustomer">
       <div class="modal-dialog ">
          <div class="modal-content">  
             <div class="modal-body">
-               <h3 class="h3x">เพิ่มหมวดหมู่สินค้า</h3>
+               <div class="clearfix">&nbsp;</div>
+               <h3 class="h3x">เพิ่มรายชื่อ</h3>
+
+               <div class="clearfix">&nbsp;</div>
 
                <div class="col form-add">
                   <form action="">             
 
-                     <div class="form-group">
-                        <label>ชื่อสินค้า</label> 
-                        <input type="text" class="form-control text-he"   placeholder="" name="name">
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">รหัสลูกค้า :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
                      </div>
 
-                     <div class="form-group">
-                        <label for="sel1">หมวดหมู่สินค้า</label>
-                        <select class="form-control" id="sel1">
-                           <option>หมวดหมู่</option>
-                           <option>1</option>
-                           <option>2</option>
-                           <option>3</option>
-                           <option>4</option>
-                        </select>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ชื่อลูกค้า :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
                      </div>
 
-                     <div class="form-group">
-                        <label>คำขยายความ</label> 
-                        <input type="text" class="form-control text-he"   placeholder="" name="cf">
-                     </div>
- 
-                     <div class="form-group">
-                        <label>คุณลักษณะพิเศษหมวดหมู่ <small>(เช่นขนาดหน้าจอ)</small></label> 
-
-                        <input type="text" class="form-control text-he"   placeholder="" name="cf">
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">เบอร์โทร :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
                      </div>
 
-                     <div class="form-group text-center circlex">
-                        <a href="#">
-                           <i class="fas fa-plus-circle"></i>
-                        </a>
-                        <a href="#">
-                           <i class="fas fa-minus-circle"></i>
-                        </a>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ที่อยู่จัดส่ง :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
                      </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">เลขผู้เสียภาษี :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">บริษัท :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">สาขา :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ที่อยู่บริษัท :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label for="sel1" class="col-3 se p-0">กลุ่มลูกค้า : </label>
+                        <div class="col-9">
+                           <select class="form-control" id="sel1">
+                              <option></option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                           </select>
+                        </div>
+                     </div>
+
+
+
+
  
                      <div class="clearfix">&nbsp;</div>
 
-                     <button type="submit" class="btn-g">เพิ่ม</button>
-                     <button type="button" class="btn-c" data-dismiss="modal">ยกเลิก</button>
+                     <div class="row">
+                        <div class="col-6">
+                           <button type="submit" class="btn-g">บันทึก</button>
+                        </div>
+                        <div class="col-6">                           
+                           <button type="button" class="btn-c" data-dismiss="modal">ยกเลิก</button>
+                        </div>
+                     </div>
+
+                  </form>
+               </div>
+
+            </div>  
+         </div>
+      </div>
+   </div>
+
+
+   <div class="modal modal-s fade" id="editCustomer">
+      <div class="modal-dialog ">
+         <div class="modal-content">  
+            <div class="modal-body">
+               <div class="clearfix">&nbsp;</div>
+               <h3 class="h3x">แก้ไขลูกค้า</h3>
+
+               <div class="clearfix">&nbsp;</div>
+
+               <div class="col form-add">
+                  <form action="">             
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">รหัสลูกค้า :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ชื่อลูกค้า :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">เบอร์โทร :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ที่อยู่จัดส่ง :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">เลขผู้เสียภาษี :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">บริษัท :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">สาขา :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ที่อยู่บริษัท :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label for="sel1" class="col-3 se p-0">ระงับลููกค้า : </label>
+                        <div class="col-9 ">
+                           <div class="col-1 m-setting">
+                              <label class="switch">
+                                 <input type="checkbox" checked="">
+                                 <span class="slider"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+
+
+ 
+ 
+                     <div class="clearfix">&nbsp;</div>
+
+                     <div class="row">
+                        <div class="col-6">
+                           <button type="submit" class="btn-g">บันทึก</button>
+                        </div>
+                        <div class="col-6">                           
+                           <button type="button" class="btn-c" data-dismiss="modal">ยกเลิก</button>
+                        </div>
+                     </div>
 
                   </form>
                </div>
