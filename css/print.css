@@ -101,10 +101,7 @@ a:hover{
 /*.banner {
   height: 100vh;
 }*/ 
-  
-
-
-
+   
   
 .print-order{
   margin: auto;
@@ -182,10 +179,7 @@ h3.h3-n2{
 h3.h3-n2 span{
   font-family:SukhumvitSet-Text;
   font-size: 16px;
-}
-.table-orderx{
-  border-bottom:2px solid #FE0002; 
-}
+} 
 .table-orderx table{
   margin-bottom: 0px;
 }
