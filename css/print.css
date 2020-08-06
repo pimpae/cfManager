@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'Linearicons';
+  src: url("../fonts/Linearicons-Free.ttf");
+}
+
+@font-face{
+  font-family:SukhumvitSet-Bold;
+  src: url(../fonts/Sukhumvit/SukhumvitSet-Bold.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family:SukhumvitSet-SemiBold;
+  src: url(../fonts/Sukhumvit/SukhumvitSet-SemiBold.ttf);
+  font-style: normal;
+  font-variant:initial;
+}
+@font-face{
+  font-family:SukhumvitSet-Text;
+  src: url(../fonts/Sukhumvit/SukhumvitSet-Text.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family:SukhumvitSet-Medium;
+  src: url(../fonts/Sukhumvit/SukhumvitSet-Medium.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family:Poppins-Regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family:Poppins-SemiBold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family:Proxima-Light;
+  src: url(../fonts/Proxima-Light.otf);
+  font-style: normal;
+  font-variant:initial;
+} 
+
+
+
+
+/*html {
+  scroll-behavior: smooth;
+}*/
+.none-pad{
+  padding: 0px 0px 0px 0px !important;
+} 
+.none-pad2{
+  padding: 0px 5px 0px 5px !important;
+} 
+.none-pad-r{
+  padding: 0px 5px 0px 0px !important;
+} 
+.none-right{
+  margin-right: -15px;
+} 
+.none-left{
+  margin-left: -15px;
+} 
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+ 
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }
+  .none-xs{
+    padding: 0px 0px 0px 0px !important;
+  }
+  .none-xs2{
+    padding: 0px 5px 0px 5px !important;
+  }
+  .none-xxs{
+    padding: -15px -15px -15px -15px !important;
+  }
+  .marx-15{
+    margin-top: 15px;
+  }  
+}
+@media only screen and (min-width: 992px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }  
+}
+ 
+a:hover{
+  text-decoration: none;
+}
+/*.banner {
+  height: 100vh;
+}*/ 
+  
+
+
+
+  
+.print-order{
+  margin: auto;
+  display: block;
+  background-color: #fff;
+  border:4px solid #FE0002;
+  width: 100mm;
+  min-height: 100mm;
+}
+.logo-tran{
+  max-height: 40px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.package-n{
+  font-family:SukhumvitSet-Bold;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;  
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+.barcodex{
+  border-top:2px solid #FE0002;
+  border-bottom:2px solid #FE0002;
+}
+.barr{
+  border-right:2px solid #FE0002; 
+}
+.bart{ 
+  border-bottom:2px solid #FE0002; 
+}
+#barcode{
+  display: block;
+  margin: auto;
+  letter-spacing: 10px;
+}
+h3.h3-n{
+  font-family:SukhumvitSet-Bold;
+  font-size: 16px;
+  padding-top: 15px;
+}
+h3.h3-n span{
+  font-family:SukhumvitSet-Text;
+  font-size: 16px;
+}
+p.address{
+  font-family:SukhumvitSet-Text;
+  padding-left: 0px;
+  font-size: 14px;  
+  line-height: 20px !important;
+  text-align: justify-all;
+}
+p.tt1{
+  font-family:SukhumvitSet-Text;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.p-10{
+  margin-top: 10px;
+}
+p.tt2{
+  font-family:SukhumvitSet-Text;
+  padding-left: 0px;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+h3.h3-n2{
+  font-family:SukhumvitSet-Bold;
+  font-size: 16px; 
+}
+h3.h3-n2 span{
+  font-family:SukhumvitSet-Text;
+  font-size: 16px;
+}
+.table-orderx{
+  border-bottom:2px solid #FE0002; 
+}
+.table-orderx table{
+  margin-bottom: 0px;
+}
+.qrcode{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+  padding-bottom: 15px;
+}
+.table-orderx table thead tr th{
+  text-align: center;
+  font-family:SukhumvitSet-Bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.table-orderx table tbody tr td{
+  text-align: center;
+  font-family:SukhumvitSet-Text;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.table-orderx table tfoot tr td.f1{
+  text-align: left;
+  font-family:SukhumvitSet-Bold;
+  padding:5px 0px;
+  font-size: 12px; 
+}
+.table-orderx table tfoot tr td.f2{
+  text-align: right;
+  font-family:SukhumvitSet-Bold;
+  padding:5px 0px;
+  font-size: 12px; 
+}
+.table-orderx table tfoot tr td span{
+  font-family:SukhumvitSet-Text;
+  font-size: 12px;
+}
+@media print
+{    
+  .no-print, .no-print *{
+    display: none !important;
+  }
+}

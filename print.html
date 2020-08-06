@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js"></script>  
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet" type="text/css" />
+      <link href="css/print.css" rel="stylesheet" type="text/css" />
+      <link href="fonts/web-fonts-with-css/css/all.css" rel="stylesheet">
+     <!--  <link rel="shortcut icon" href="images/icon.ico" /> -->
+      <link rel="icon" type="image/x-icon" href="images/logo.png">
+      <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js" integrity="sha512-NFUcDlm4V+a2sjPX7gREIXgCSFja9cHtKPOL1zj6QhnE0vcY695MODehqkaGYTLyL2wxe/wtr4Z49SvqXq12UQ==" crossorigin="anonymous"></script>
+      <title> Cf Manager </title>
+      <script src="js/lightslider.js"></script>
+      <link href="css/lightslider.css" rel="stylesheet" type="text/css" />
+
+   </head>
+
+   <body>
+      <div class="print-order">
+         <div class="col">
+            <div class="row">
+               <div class="col-6  p-0">
+                  <img src="https://jtexpress.co.th/static/images/logo.png" class="img-fluid d-block mx-auto logo-tran">
+               </div>
+               <div class="col-6  p-0">
+                  <h3 class="package-n">a1-nbi0602-021</h3>
+               </div>
+            </div>
+         </div>
+         <div class="col ">
+            <div class="row barcodex">
+               <svg id="barcode"></svg>
+            </div>
+         </div>
+         <div class="col">
+            <div class="row bart">
+               <div class="col-6 barr">
+                  <h3 class="h3-n">ผู้ส่ง :<span>ตั๊วขายถูก</span></h3>
+                  <p class="tt1">
+                     เสื้อผ้าแบน
+                  </p>
+               </div>
+               <div class="col-6  ">
+                  <h3 class="h3-n">ผู้ส่ง :<span>ตั๊วขายถูก</span></h3>
+                  <p class="tt2">
+                     An any
+                  </p>
+                  <p class="address">
+                     &nbsp;&nbsp;&nbsp;&nbsp;2 อาคารเพลินจิตเซ็นเตอร์ ชั้น 3
+                  ถ.สุขุมวิท คลองเตย กรุงเทพ 10110
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="col" >
+            <div class="row bart p-10">
+               <div class="col-12">
+                  <h3 class="h3-n2">ใบเสร็จ/ใบส่งของ เลขที่ :   <span>#003738</span></h3> 
+                  <h3 class="h3-n2">วันที่สั่งซื้อ :   <span>06/08/2020</span></h3> 
+                  <h3 class="h3-n2">จัดส่งโดย :   <span>J&T</span></h3> 
+                  <div id="qrCODE" class="qrcode"></div>
+               </div> 
+            </div>
+         </div>
+         <div class="col" >
+            <div class="row table-orderx">
+               <table class="table ">
+                  <thead>
+                     <tr>
+                        <th colspan="4">รายละเอียดสินค้า</th>
+                     </tr>
+                  </thead>
+                  <thead>
+                     <tr>
+                        <th>No.</th>
+                        <th>รหัส</th>
+                        <th>ชื่อสินค้า</th>
+                        <th>จำนวน</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>1</td>
+                        <td>39</td>
+                        <td>ลิปเซต Turklie กล่องดำ</td>
+                        <td>1</td>
+                     </tr>
+                  </tbody>
+                  <tfoot>
+                     <tr>
+                        <td colspan="2" class="f1">วันที่พิมพ์ <span> 06/08/2020 18:03:12</span></td>
+                        <td colspan="2" class="f2">สินค้าทั้งหมด <span>1 รายการ</span> </td>
+                     </tr>
+                  </tfoot>
+               </table>
+            </div>
+         </div>
+         <div class="col text-center no-print">
+            <br>
+               <button type="button" class="btn btn-outline-primary" onclick="window.print()">Print</button>
+            <br><br>
+         </div>
+      </div>
+      <script type="text/javascript">
+         JsBarcode("#barcode", "860003855185", { 
+            lineColor: "#000",
+            width:3,
+            height: 40,
+            displayValue: true ,
+            textAlign: "center", 
+         });
+    
+         $('#qrCODE').qrcode({
+            text: "#003738",
+            width: 75,
+            height: 75
+         });
+      </script>
+
+   </body>
+
+</html>
