@@ -4,7 +4,8 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
    <script src="js/bootstrap.min.js"></script>  
    <link href="css/bootstrap.css" rel="stylesheet">
    <link href="css/main.css" rel="stylesheet" type="text/css" />
@@ -185,6 +186,10 @@
                                  <a href="#" class="bt-a1">10</a>
                               </div>                              
                            </div>
+
+                               <p style="border:1px solid black;margin:5px;">Swipe me in the left direction - do not swipe outside the border!</p>
+
+                               
                            <div class="col-12">
                               <div class="col-itemx row shadow">
                                  <img src="images/imgx2.png" class="logxz">
@@ -276,17 +281,10 @@
    });
 
 
- 
-
-   $(".col-itemx").draggable({
-       axis: "x",
-       start: function(event, ui) {
-           start = ui.position.left;
-       },
-       stop: function(event, ui) {
-           stop = ui.position.left;
-           alert('has moved ' + ((start < stop) ? 'rigth':'left'))
-       }
+   $(document).on("pagecreate","#pageone",function(){
+     $("p").on("swipeleft",function(){
+       alert("You swiped left!");
+     });                       
    });
 
 </script>
