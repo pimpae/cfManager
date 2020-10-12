@@ -2042,3 +2042,8 @@ footer a img{
 .ds{
  font-size: 14px;
 }
+
+
+.accordion.box-confd .card{
+  background-color: #F4F4F4;
+}
