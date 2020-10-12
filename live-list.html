@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+   <script src="js/bootstrap.min.js"></script>  
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/main.css" rel="stylesheet" type="text/css" />
+   <link href="fonts/web-fonts-with-css/css/all.css" rel="stylesheet">
+  <!--  <link rel="shortcut icon" href="images/icon.ico" /> -->
+   <link rel="icon" type="image/x-icon" href="images/logo.png">
+   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+   <title> Cf Manager </title>
+
+   <script src="js/lightslider.js"></script>
+   <link href="css/lightslider.css" rel="stylesheet" type="text/css" />
+   <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+<body>
+   <div class="main">
+      <div class="menu">
+         <div class="bar-menu">
+            <i class="fas fa-bars"></i>
+         </div>
+         <h1 class="dbx2">รายการ Live </h1>
+         <a href="#" class="right-alert">
+            <img src="images/li-8.png">
+         </a>
+      </div>
+
+      <div id="menuslide">
+         <div class="div-menu">
+            <div class="hmenu">
+               <div class="col">
+                  <div class="clearfix">&nbsp;</div>
+                  <div class="row">
+
+                     <div class="col-4 none-pad"><img src="images/Userpic.png" class="img-fluid d-block mx-auto userpic"></div>
+                     <div class="col-8 user none-pad">
+                        <h3>Kimberly  Shop</h3>
+                        <img src="images/shop.png" class="shop"><h3 style="display: inline;">ออนไลน์</h3>
+                        <label class="switch">
+                           <input type="checkbox">
+                           <span class="slider"></span>
+                        </label>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="bmenu">
+       
+               <div id="accordion" class="accordion">
+                  <div class="card mb-0">
+                     <div class="card-header collapsed" data-toggle="collapse" href="#menu1">
+                        <img src="images/box.png">
+                        <a class="card-title">
+                           <h3>ผลิตภัณฑ์สินค้า</h3>
+                        </a>
+                     </div>
+                     <div id="menu1" class="card-body collapse" data-parent="#accordion">
+                        <ul class="m">
+                           <li>
+                              <a href="#">เพิ่มสินค้า</a>
+                           </li>
+                           <li>
+                              <a href="#">จัดการสินค้า</a>
+                           </li>
+                           <li>
+                              <a href="#">หมวดหมู่สินค้า</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#menu2">
+                        <a class="card-title">
+                           <img src="images/list.png"> <h3>คำสั่งซื้อ </h3>
+                        </a>
+                     </div>
+                     <div id="menu2" class="card-body collapse" data-parent="#accordion">
+                        <ul class="m">
+                           <li>
+                              <a href="#">จัดการใบสั่งซื้อ</a>
+                           </li>
+                           <li>
+                              <a href="#">สร้างใบสั่งซื้อ</a>
+                           </li>
+                           <li>
+                              <a href="#">พิมพ์ใบจัดส่ง</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#menu3">
+                        <a class="card-title">
+                           <img src="images/Shape.png"> <h3>จัดการหน้า Facebook</h3>
+                        </a>
+                     </div>
+                     <div id="menu3" class="card-body collapse" data-parent="#accordion">
+                        <ul class="m">
+                           <li>
+                              <a>
+                                 FB Post                                 
+                              </a>
+                              <div>
+                                 <ul class="mx">
+                                    <li>
+                                       <a href="#">สร้างรายการ Post Sale</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">รายการ FB Post</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li>
+                              <a>FB <span>Live</span> </a>
+                              <div>
+                                 <ul class="mx">
+                                    <li>
+                                       <a href="#">สร้างรายการ Post Sale</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">รายการ FB Post</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#menu4">
+                        <a class="card-title">
+                           <img src="images/Group_3_.png"> <h3>กลุ่มลูกค้า</h3>
+                        </a>
+                     </div>
+                     <div id="menu4" class="card-body collapse" data-parent="#accordion">
+                        <ul class="m">
+                           <li>
+                              <a href="#">ลูกค้า</a>
+                           </li>
+                           <li>
+                              <a href="#">กลุ่มลูกค้า</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <a href="setting.html" class="icon-sett"><img src="images/settings.png"> <span>ตั้งค่า</span></a>
+            </div>
+         </div>
+      </div>
+      
+    
+
+      <div class="main" >
+         <div class="main-nav" > 
+            <div class="col none-pad2">       
+               
+
+               <div class="col table-main">
+                 <div class="clearfix">&nbsp;</div>
+
+              
+                  <form class="form-add">
+                     <div class="form-group row">
+                        <div class="col-10">
+                           <div class="form-group search-r"> 
+                              <input type="text" class="form-control search-xx"   placeholder="Search" name="search" id="search" >
+                              <i class="fas fa-search"></i>
+                           </div>
+                        </div>
+                        <div class="col-2">
+                           <a href="#" class="a-rt">
+                              <i class="fas fa-bars"></i>
+                           </a>
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label for="sel1" class="col-4 ds">เริ่ม Live ตั้งแต่</label>
+                        <div class="col-8">
+                           <input 
+                              type="text" 
+                              class="form-control date" 
+                              name="datepicker1" 
+                              id="datepicker1" 
+                              placeholder=""  
+                              > 
+                        </div>
+                     </div>
+
+
+                     <div class="form-group row">
+                        <label for="sel1" class="col-4 ds">ถึงวันที่</label>
+                        <div class="col-8">
+                           <input 
+                              type="text" 
+                              class="form-control date" 
+                              name="datepicker2" 
+                              id="datepicker2" 
+                              placeholder=""  
+                              > 
+                        </div>
+                     </div>
+
+
+
+                  </form>
+             
+
+                  <table class="table table-listx">
+                     <thead>
+                        <tr>
+                           <th class="tcx">Live id</th>
+                           <th class="tcx">เวลา Live</th>
+                           <th class="tcx">จำนวนลูกค้า</th>
+                           <th class="tcx">CF สินค้า</th>
+                           <th class="tcx">Comment</th> 
+                           <th class="tcx">&nbsp;</th> 
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr> 
+                           <td>259747</td>
+                           <td>2020-10-03 </td>
+                           <td>1 คน</td>
+                           <td>1 รหัส</td> 
+                           <td>1</td> 
+                           <td>
+                              <div class="st-z popup"  onclick="tool(1)" >
+                                 <span class="popuptext" id="show_tool1">
+                                    <a href="#">
+                                       <img src="images/cc1.png">
+                                    </a>
+                                    <a href="#">
+                                       <img src="images/cc2.png">
+                                    </a>
+                                    <a href="#">
+                                       <img src="images/cc3.png">
+                                    </a>
+                                    <a href="#">
+                                       <img src="images/cc4.png">
+                                    </a>
+                                 </span>
+                                 <img src="images/dots3.png">
+                              </div>
+                           </td>
+                        </tr>  
+                        <tr> 
+                           <td>123322</td>
+                           <td>2020-10-03 </td>
+                           <td>4 คน</td>
+                           <td>4 รหัส</td> 
+                           <td>6</td> 
+                           <td>
+                              <div class="st-z popup"  onclick="tool(2)" >
+                                 <span class="popuptext" id="show_tool2">
+                                    <a href="#">
+                                       <img src="images/cc1.png">
+                                    </a>
+                                    <a href="#">
+                                       <img src="images/cc2.png">
+                                    </a>
+                                    <a href="#">
+                                       <img src="images/cc3.png">
+                                    </a>
+                                    <a href="#">
+                                       <img src="images/cc4.png">
+                                    </a>
+                                 </span>
+                                 <img src="images/dots3.png">
+                              </div>
+                           </td>
+                        </tr> 
+                     </tbody>
+                  </table>
+                  
+
+                  <div class="clearfix">&nbsp;</div> 
+              </div>        
+            </div>        
+ 
+          
+      
+         </div>
+         <a href="#" class="go-Button2">
+            <img src="images/Go-Button2.png">
+         </a>
+      </div>         
+   </div>
+   
+
+   <div class="modal modal-s fade" id="addCustomer">
+      <div class="modal-dialog ">
+         <div class="modal-content">  
+            <div class="modal-body">
+               <div class="clearfix">&nbsp;</div>
+               <h3 class="h3x">เพิ่มรายชื่อ</h3>
+
+               <div class="clearfix">&nbsp;</div>
+
+               <div class="col form-add">
+                  <form action="">             
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">รหัสลูกค้า :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ชื่อลูกค้า :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">เบอร์โทร :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ที่อยู่จัดส่ง :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">เลขผู้เสียภาษี :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">บริษัท :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">สาขา :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ที่อยู่บริษัท :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label for="sel1" class="col-3 se p-0">กลุ่มลูกค้า : </label>
+                        <div class="col-9">
+                           <select class="form-control" id="sel1">
+                              <option></option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                           </select>
+                        </div>
+                     </div>
+
+
+
+
+ 
+                     <div class="clearfix">&nbsp;</div>
+
+                     <div class="row">
+                        <div class="col-6">
+                           <button type="submit" class="btn-g">บันทึก</button>
+                        </div>
+                        <div class="col-6">                           
+                           <button type="button" class="btn-c" data-dismiss="modal">ยกเลิก</button>
+                        </div>
+                     </div>
+
+                  </form>
+               </div>
+
+            </div>  
+         </div>
+      </div>
+   </div>
+
+
+   <div class="modal modal-s fade" id="editCustomer">
+      <div class="modal-dialog ">
+         <div class="modal-content">  
+            <div class="modal-body">
+               <div class="clearfix">&nbsp;</div>
+               <h3 class="h3x">แก้ไขลูกค้า</h3>
+
+               <div class="clearfix">&nbsp;</div>
+
+               <div class="col form-add">
+                  <form action="">             
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">รหัสลูกค้า :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ชื่อลูกค้า :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">เบอร์โทร :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ที่อยู่จัดส่ง :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0"><img src="images/line.png"></label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">เลขผู้เสียภาษี :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">บริษัท :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">สาขา :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label class="col-3 se p-0">ที่อยู่บริษัท :</label> 
+                        <div class="col-9">
+                           <input type="text" class="form-control text-he2"   placeholder="" name="name">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <label for="sel1" class="col-3 se p-0">ระงับลููกค้า : </label>
+                        <div class="col-9 ">
+                           <div class="col-1 m-setting">
+                              <label class="switch">
+                                 <input type="checkbox" checked="">
+                                 <span class="slider"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+
+
+ 
+ 
+                     <div class="clearfix">&nbsp;</div>
+
+                     <div class="row">
+                        <div class="col-6">
+                           <button type="submit" class="btn-g">บันทึก</button>
+                        </div>
+                        <div class="col-6">                           
+                           <button type="button" class="btn-c" data-dismiss="modal">ยกเลิก</button>
+                        </div>
+                     </div>
+
+                  </form>
+               </div>
+
+            </div>  
+         </div>
+      </div>
+   </div>
+
+
+ 
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" />
+
+<script type="text/javascript">
+ 
+
+   $(".bar-menu").click(function () {
+      $( "#menuslide" ).show();
+   });
+
+   $(".main-nav").click(function () {
+      $( "#menuslide" ).hide();
+   }); 
+
+
+   function tool(id) {  
+      var popup = document.getElementById("show_tool"+id);
+      popup.classList.toggle("show");
+   }
+
+   $('.date').datepicker({
+      format: "dd/mm/yyyy",
+      todayBtn: "linked",
+      language: "en",
+      autoclose: true,
+      todayHighlight: true
+   }); 
+ 
+</script>
+
+ 
+
+</html>
